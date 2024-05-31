@@ -1,8 +1,3 @@
-import algoliasearch from "algoliasearch"
-import algoliasearchHelper from "algoliasearch-helper"
-import $ from 'jquery'
-
-
 const applicationID = "TS106XF7Y9"
 const apiKey = 'da97fcc72d5377406b5da395ade6f5f5'
 const restaurants = 'JSON'
