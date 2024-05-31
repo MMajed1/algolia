@@ -41,7 +41,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm i
+      
         
 
   # Deployment job
@@ -55,5 +55,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - run: npm i
       - run: npm start
         
